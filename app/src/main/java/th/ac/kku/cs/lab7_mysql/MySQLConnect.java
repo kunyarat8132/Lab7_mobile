@@ -2,6 +2,7 @@ package th.ac.kku.cs.lab7_mysql;
 
 import android.app.Activity;
 
+import java.io.StringReader;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,11 +22,20 @@ public class MySQLConnect {
 
     public List<String> getData() {
         String url = URL + GET_URL;
-        
 
+    
 
 
 
         return list;
+    }
+
+    public void showJSON(String response){
+
+
+    }
+
+    public void sentData(String value){
+
     }
 }
