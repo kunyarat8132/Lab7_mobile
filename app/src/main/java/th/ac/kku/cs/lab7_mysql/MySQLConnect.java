@@ -23,7 +23,7 @@ public class MySQLConnect {
     public List<String> getData() {
         String url = URL + GET_URL;
 
-    
+
 
 
 
